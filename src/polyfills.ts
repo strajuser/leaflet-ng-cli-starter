@@ -71,3 +71,8 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  * Need to import at least one locale-data with intl.
  */
 // import 'intl/locale-data/jsonp/en';
+
+import 'leaflet';
+import * as proj4x from 'proj4';
+let proj4 = (<any>proj4x).default;
+import 'proj4leaflet';

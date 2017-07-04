@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import 'leaflet';
-
 @NgModule({
   declarations: [
     AppComponent
