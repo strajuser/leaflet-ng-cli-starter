@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import 'leaflet';
+// import 'leaflet';
+// require('esri-leaflet');
 
 @NgModule({
   declarations: [
