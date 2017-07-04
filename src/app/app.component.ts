@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as proj4x from 'proj4';
+let proj4 = (proj4x as any).default;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,6 +12,8 @@ export class AppComponent implements OnInit {
   title = 'app';
 
   ngOnInit() {
+    console.log(proj4);
+
     const map = L.map('map').setView([51.505, -0.09], 13);
 
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
