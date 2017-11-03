@@ -22,9 +22,7 @@
         "styles.css",
         "../node_modules/leaflet/dist/leaflet.css"
       ],
-      "scripts": [
-        "../node_modules/leaflet/dist/leaflet.js"
-      ],
+      "scripts": [ ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
