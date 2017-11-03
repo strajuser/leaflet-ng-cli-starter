@@ -23,7 +23,6 @@
         "../node_modules/leaflet/dist/leaflet.css"
       ],
       "scripts": [
-        "../node_modules/leaflet/dist/leaflet.js",
         "../node_modules/esri-leaflet/dist/esri-leaflet.js"
       ],
       "environmentSource": "environments/environment.ts",
