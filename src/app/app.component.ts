@@ -5,10 +5,10 @@ import * as L from 'leaflet';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.less']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
+  title = 'leaflet-ng-cli-starter';
 
   ngOnInit() {
     const map = L.map('map').setView([51.505, -0.09], 13);
